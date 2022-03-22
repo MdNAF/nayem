@@ -1,0 +1,97 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+    #banner {
+        padding: 60px 0;
+    }
+    #banner .ban_text h1 {
+        font-size: 36px;
+    }
+    #banner .ban_text p {
+        font-size: 16px;
+    }
+    #banner .ban_text h2 {
+        font-size: 26px;
+    }
+    #banner .ban_text{
+        padding-top: 50px;
+    }
+    .custom_btn {
+        padding: 5px 0;
+        font-size: 16px;
+        width: 120px;
+    }
+    #banner .ban_img {
+        margin-left: 0;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    #banner {
+        width: 100%;
+        background: linear-gradient(90deg, rgba(213,254,255,1) 0%, rgba(255,210,255,1) 100%);
+        padding: 80px 0;
+    }
+    #banner .ban_text{
+        padding-top: 50px;
+    }
+    #banner .ban_text h1 {
+        font-size: 40px;
+    } 
+    #banner .ban_text h2 {
+        font-size: 32px;
+    }
+    #banner .ban_text p {
+        font-size: 16px;
+    }
+    #banner .ban_img {
+        margin-left: 0;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #banner {
+        width: 100%;
+        background: linear-gradient(90deg, rgba(213,254,255,1) 0%, rgba(255,210,255,1) 100%);
+        padding: 80px 0;
+    }
+    #banner .ban_text{
+        padding-top: 50px;
+    }
+    #banner .ban_text h1 {
+        font-size: 40px;
+    } 
+    #banner .ban_text h2 {
+        font-size: 32px;
+    }
+    #banner .ban_text p {
+        font-size: 16px;
+    }
+    #banner .ban_img {
+        margin-left: 0;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #banner .ban_text h2 {
+        font-size: 40px;
+        color: var(--black);
+        font-weight: 600;
+    }
+    #banner .ban_text h1 {
+        font-size: 50px;
+    }
+    #banner .ban_text p {
+        line-height: 25px;
+    } 
+    #banner .ban_img {
+        margin-left: 200px;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {  
+    
+}
